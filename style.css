@@ -224,7 +224,7 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right .linkedin{
     display: inline-block;
     color:#fff;
     background-color: #00ae4c;
@@ -237,13 +237,25 @@ section .title::after{
     transition: all 0.3s ease; 
 
 }
-
-.about .about-content .right a:hover{
+.about .about-content .right .mention-class{
+    text-decoration: none;
+    color: #00ae4c;
+}
+.about .about-content .right .linkedin:hover{
     color: #00ae4c;
     background: none;
 }
+.about .about-content .right .mention-class:hover{
+    text-decoration: underline;
+}
 
-
+.mention-class{
+    text-decoration: none;
+    color: #00ae4c;
+}
+.mention-class:hover{
+    text-decoration: underline;
+}
 
 
 /* ---------------- */
@@ -287,6 +299,13 @@ section .title::after{
 }
 .services .serv-content .card:hover i{
     transition: all 0.3s ease;
+    color: #fff;
+}
+.services .serv-content .mention-class:hover {
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.services .serv-content .mention-class{
     color: #fff;
 }
 .services .serv-content .card .text {
